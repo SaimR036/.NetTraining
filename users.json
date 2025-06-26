@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Usman",
+    "gender": true
+  },
+  {
+    "id": 2,
+    "name": "Ali",
+    "gender": false
+  },
+  {
+    "id": 3,
+    "name": "Ali",
+    "gender": true
+  },
+  {
+    "id": 4,
+    "name": "Saim",
+    "gender": false
+  },
+  {
+    "id": 5,
+    "name": "Noor",
+    "gender": false
+  },
+  {
+    "id": 6,
+    "name": "Amna",
+    "gender": true
+  },
+  {
+    "id": 7,
+    "name": "Amna",
+    "gender": false
+  },
+  {
+    "id": 8,
+    "name": "Amna",
+    "gender": true
+  },
+  {
+    "id": 9,
+    "name": "Bilal",
+    "gender": false
+  },
+  {
+    "id": 10,
+    "name": "Sara",
+    "gender": true
+  },
+  {
+    "id": 11,
+    "name": "Noor",
+    "gender": true
+  },
+  {
+    "id": 12,
+    "name": "Ali",
+    "gender": false
+  },
+  {
+    "id": 13,
+    "name": "Saim",
+    "gender": true
+  },
+  {
+    "id": 14,
+    "name": "Sara",
+    "gender": true
+  },
+  {
+    "id": 15,
+    "name": "Sara",
+    "gender": false
+  },
+  {
+    "id": 16,
+    "name": "Amna",
+    "gender": true
+  },
+  {
+    "id": 17,
+    "name": "Noor",
+    "gender": true
+  },
+  {
+    "id": 18,
+    "name": "Bilal",
+    "gender": false
+  },
+  {
+    "id": 19,
+    "name": "Ayesha",
+    "gender": true
+  },
+  {
+    "id": 20,
+    "name": "Noor",
+    "gender": true
+  }
+]

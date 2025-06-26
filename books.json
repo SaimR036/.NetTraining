@@ -1,0 +1,52 @@
+[
+  {
+    "isbn": 1000,
+    "title": "C# Fundamentals",
+    "quantity": 3
+  },
+  {
+    "isbn": 1001,
+    "title": "ASP.NET Core",
+    "quantity": 2
+  },
+  {
+    "isbn": 1002,
+    "title": "Java Basics",
+    "quantity": 5
+  },
+  {
+    "isbn": 1003,
+    "title": "Python for Data Science",
+    "quantity": 1
+  },
+  {
+    "isbn": 1004,
+    "title": "Machine Learning",
+    "quantity": 5
+  },
+  {
+    "isbn": 1005,
+    "title": "Deep Learning",
+    "quantity": 3
+  },
+  {
+    "isbn": 1006,
+    "title": "Clean Code",
+    "quantity": 9
+  },
+  {
+    "isbn": 1007,
+    "title": "Algorithms in C#",
+    "quantity": 5
+  },
+  {
+    "isbn": 1008,
+    "title": "Entity Framework Guide",
+    "quantity": 5
+  },
+  {
+    "isbn": 1009,
+    "title": "LINQ Essentials",
+    "quantity": 10
+  }
+]
