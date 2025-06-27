@@ -1,0 +1,130 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\s.rehman\\source\\repos\\Day3Activity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B55F60-D052-4991-98BA-1712C1609657}|Day3Activity\\Day3Activity.csproj|c:\\users\\s.rehman\\source\\repos\\day3activity\\day3activity\\books.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D3B55F60-D052-4991-98BA-1712C1609657}|Day3Activity\\Day3Activity.csproj|solutionrelative:day3activity\\books.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B55F60-D052-4991-98BA-1712C1609657}|Day3Activity\\Day3Activity.csproj|c:\\users\\s.rehman\\source\\repos\\day3activity\\day3activity\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B55F60-D052-4991-98BA-1712C1609657}|Day3Activity\\Day3Activity.csproj|solutionrelative:day3activity\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B55F60-D052-4991-98BA-1712C1609657}|Day3Activity\\Day3Activity.csproj|c:\\users\\s.rehman\\source\\repos\\day3activity\\day3activity\\libraryinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B55F60-D052-4991-98BA-1712C1609657}|Day3Activity\\Day3Activity.csproj|solutionrelative:day3activity\\libraryinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B55F60-D052-4991-98BA-1712C1609657}|Day3Activity\\Day3Activity.csproj|c:\\users\\s.rehman\\source\\repos\\day3activity\\day3activity\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B55F60-D052-4991-98BA-1712C1609657}|Day3Activity\\Day3Activity.csproj|solutionrelative:day3activity\\borrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B55F60-D052-4991-98BA-1712C1609657}|Day3Activity\\Day3Activity.csproj|c:\\users\\s.rehman\\source\\repos\\day3activity\\day3activity\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B55F60-D052-4991-98BA-1712C1609657}|Day3Activity\\Day3Activity.csproj|solutionrelative:day3activity\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B55F60-D052-4991-98BA-1712C1609657}|Day3Activity\\Day3Activity.csproj|c:\\users\\s.rehman\\source\\repos\\day3activity\\day3activity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B55F60-D052-4991-98BA-1712C1609657}|Day3Activity\\Day3Activity.csproj|solutionrelative:day3activity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "books.json",
+              "DocumentMoniker": "C:\\Users\\s.rehman\\source\\repos\\Day3Activity\\Day3Activity\\books.json",
+              "RelativeDocumentMoniker": "Day3Activity\\books.json",
+              "ToolTip": "C:\\Users\\s.rehman\\source\\repos\\Day3Activity\\Day3Activity\\books.json",
+              "RelativeToolTip": "Day3Activity\\books.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-27T07:29:09.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Borrow.cs",
+              "DocumentMoniker": "C:\\Users\\s.rehman\\source\\repos\\Day3Activity\\Day3Activity\\Borrow.cs",
+              "RelativeDocumentMoniker": "Day3Activity\\Borrow.cs",
+              "ToolTip": "C:\\Users\\s.rehman\\source\\repos\\Day3Activity\\Day3Activity\\Borrow.cs",
+              "RelativeToolTip": "Day3Activity\\Borrow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T07:24:48.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\s.rehman\\source\\repos\\Day3Activity\\Day3Activity\\Book.cs",
+              "RelativeDocumentMoniker": "Day3Activity\\Book.cs",
+              "ToolTip": "C:\\Users\\s.rehman\\source\\repos\\Day3Activity\\Day3Activity\\Book.cs",
+              "RelativeToolTip": "Day3Activity\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T07:15:55.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibraryController.cs",
+              "DocumentMoniker": "C:\\Users\\s.rehman\\source\\repos\\Day3Activity\\Day3Activity\\Controllers\\LibraryController.cs",
+              "RelativeDocumentMoniker": "Day3Activity\\Controllers\\LibraryController.cs",
+              "ToolTip": "C:\\Users\\s.rehman\\source\\repos\\Day3Activity\\Day3Activity\\Controllers\\LibraryController.cs",
+              "RelativeToolTip": "Day3Activity\\Controllers\\LibraryController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAiwC4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:52:43.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibraryInterface.cs",
+              "DocumentMoniker": "C:\\Users\\s.rehman\\source\\repos\\Day3Activity\\Day3Activity\\LibraryInterface.cs",
+              "RelativeDocumentMoniker": "Day3Activity\\LibraryInterface.cs",
+              "ToolTip": "C:\\Users\\s.rehman\\source\\repos\\Day3Activity\\Day3Activity\\LibraryInterface.cs",
+              "RelativeToolTip": "Day3Activity\\LibraryInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:52:34.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\s.rehman\\source\\repos\\Day3Activity\\Day3Activity\\Program.cs",
+              "RelativeDocumentMoniker": "Day3Activity\\Program.cs",
+              "ToolTip": "C:\\Users\\s.rehman\\source\\repos\\Day3Activity\\Day3Activity\\Program.cs",
+              "RelativeToolTip": "Day3Activity\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwB8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:52:12.998Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

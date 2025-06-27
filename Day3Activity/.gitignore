@@ -1,0 +1,10 @@
+# Ignore Visual Studio user-specific files
+.vs/
+*.user
+*.suo
+*.sdf
+*.dbmdl
+
+# Ignore build outputs
+bin/
+obj/
