@@ -1,8 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace T2.Models
 {
     public class Book
     {
-
+        [Key]
         public int isbn { get; set; }
         public string title { get; set; }
         public int quantity { get; set; }

@@ -32,7 +32,8 @@ namespace T2.Services
                  _libraryService.AddUser(user);
 
             }
-            _libraryService.BorrowBook(1000,1);
+            Borrow b1 = new Borrow(1, 1000);
+            _libraryService.AddBorrow(b1);
 
 
         }

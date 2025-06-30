@@ -10,6 +10,7 @@ namespace Day3.NetTraining.Controllers
     {
         private readonly ILibraryService _libraryService;
         private readonly AppOptions _options;
+        private readonly ILogger<LibraryController> _logger;
 
         public LibraryController(ILibraryService service, IOptions<AppOptions> options)
         {
@@ -18,7 +19,7 @@ namespace Day3.NetTraining.Controllers
         }
 
         [HttpGet("GetBooks")]
-        public List<Book> GetBooks()
+        public Task<List<Book>> GetBooks()
         {
             return _libraryService.GetBooks();
         }
@@ -26,8 +27,9 @@ namespace Day3.NetTraining.Controllers
         [HttpPost("AddBooks")]
         public IActionResult AddBook([FromBody] Book book)
         {
+            _logger.LogInformation("AddBook Called");
             _libraryService.AddBook(book);
-            return Ok(_libraryService.GetBooks().Last());
+            return Ok("Book Added");
         }
 
         [HttpPost("AddUser")]
@@ -40,14 +42,15 @@ namespace Day3.NetTraining.Controllers
         [HttpPost("borrow")]
         public IActionResult BorrowBook([FromQuery] int isbn, [FromQuery] int userId)
         {
-            _libraryService.BorrowBook(isbn, userId);
+            Borrow b1 = new Borrow(isbn, userId);
+            _libraryService.AddBorrow(b1);
             return Ok($"User {userId} attempted to borrow book {isbn}");
         }
 
         [HttpGet("GetUsers")]
         public IActionResult GetUsers()
         {
-            return Ok(_libraryService.getUsers());
+            return Ok(_libraryService.GetUsers());
         }
 
         [HttpGet("users/{userId}/books")]

@@ -9,5 +9,6 @@ namespace T2.Models
             sid = si;
             Bid = Bi;
         }
+        public Borrow() { }
     }
 }
