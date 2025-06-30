@@ -8,4 +8,5 @@ public interface ILibraryService
     Task<List<Book>> GetBooks();
     Task<List<int>> getUserBooks(int userId);
     Task<List<User>> GetUsers();
+    Task<List<Borrow>> GetBorrows();
 }

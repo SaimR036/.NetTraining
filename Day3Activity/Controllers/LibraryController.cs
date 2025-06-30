@@ -12,10 +12,11 @@ namespace Day3.NetTraining.Controllers
         private readonly AppOptions _options;
         private readonly ILogger<LibraryController> _logger;
 
-        public LibraryController(ILibraryService service, IOptions<AppOptions> options)
+        public LibraryController(ILibraryService service, IOptions<AppOptions> options, ILogger<LibraryController> logger)
         {
             _libraryService = service;
             _options = options.Value;
+            _logger = logger;
         }
 
         [HttpGet("GetBooks")]
@@ -37,6 +38,13 @@ namespace Day3.NetTraining.Controllers
         {
             _libraryService.AddUser(user);
             return Ok(user);
+        }
+        [HttpGet("ReceiveBorrows")]
+        public async Task<List<Borrow>> GetBorrows()
+        {
+            List<Borrow> borrows = await _libraryService.GetBorrows();
+
+            return borrows;
         }
 
         [HttpPost("borrow")]

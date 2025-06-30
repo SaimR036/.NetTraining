@@ -2,8 +2,9 @@ namespace T2.Models
 {
     public class Borrow
     {
-        public int sid;
-        public int Bid;
+        public int sid { get; set; }
+        public int Bid { get; set; }
+
         public Borrow(int si, int Bi)
         {
             sid = si;

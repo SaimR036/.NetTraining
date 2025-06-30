@@ -1,14 +1,15 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Day3Activity;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Configuration;
-using T2.Models;
-using Microsoft.EntityFrameworkCore;
-using System.Text.Json;
-using T2.Services;
 using Serilog;
 using Serilog.Core;
-using Day3Activity;
+using System.Collections.Generic;
+using System.Text.Json;
+using T2.Models;
+using T2.Services;
 var builder = WebApplication.CreateBuilder(args);
 Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).Enrich.FromLogContext()
     .CreateLogger();
@@ -38,34 +39,44 @@ var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
 {
+    var context = scope.ServiceProvider.GetRequiredService<LibraryDBContext>();
+
+    //context.Books.RemoveRange(context.Books);
+    //context.Users.RemoveRange(context.Users);
+    //context.Borrows.RemoveRange(context.Borrows);
+
+    //await context.SaveChangesAsync();
     var _libraryService = scope.ServiceProvider.GetRequiredService<ILibraryService>();
 
-    string bpath = "books.json";
-    string data = File.ReadAllText(bpath);
-    List<Book>? books = JsonSerializer.Deserialize<List<Book>>(data);
+    //string bpath = "books.json";
+    //string data = File.ReadAllText(bpath);
+    //List<Book>? books = JsonSerializer.Deserialize<List<Book>>(data);
 
-    string upath = "users.json";
-    string udata = File.ReadAllText(upath);
-    List<User>? users = JsonSerializer.Deserialize<List<User>>(udata);
+    //string upath = "users.json";
+    //string udata = File.ReadAllText(upath);
+    //List<User>? users = JsonSerializer.Deserialize<List<User>>(udata);
 
-    if (books != null)
-    {
-        foreach (Book book in books)
-        {
-            _libraryService.AddBook(book);
-        }
-    }
+    //if (books != null)
+    //{
+    //    foreach (Book book in books)
+    //    {
+    //        _libraryService.AddBook(book);
+    //    }
+    //}
 
-    if (users != null)
-    {
-        foreach (User user in users)
-        {
-            _libraryService.AddUser(user);
-        }
-    }
-    Borrow b1 = new Borrow(1, 1000);
-    _libraryService.AddBorrow(b1);
-    List<Book> newbooks = await _libraryService.GetBooks();
+    //if (users != null)
+    //{
+    //    foreach (User user in users)
+    //    {
+    //        _libraryService.AddUser(user);
+    //    }
+    //}
+    //Borrow b1 = new Borrow(1, 1000);
+    //_libraryService.AddBorrow(b1);
+    var borrows = await _libraryService.GetBorrows();
+    var first = borrows.First();
+
+    Console.WriteLine($"Borrow: Sid={first.sid}, Bid={first.Bid}"); List<Book> newbooks = await _libraryService.GetBooks();
     Console.WriteLine("BOOKS" +newbooks.Count.ToString());
 }
 

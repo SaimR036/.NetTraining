@@ -36,7 +36,7 @@ namespace Day3Activity
         }
         public async Task  UpdateBook(int isbn, int quantity)
         {
-            var book = await _dbContext.Books.FindAsync(isbn);
+            var book = await _dbContext.Books.FindAsync(isbn) ?? new Book();
             book.quantity = quantity;
             await _dbContext.SaveChangesAsync();
         }
